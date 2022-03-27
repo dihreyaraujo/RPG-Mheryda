@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #7AACBF;
+    background-image: url(./reino3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#cabecalho{
+    height: 300px;
+
+}
+
+#cabecalho h1{
+    display: inline-block;
+    color: white;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.753);
+    margin-top: 100px;
+    margin-left: 45%;
+    font-size: 3.5em;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 0.1em;
+}
+
+#cabecalho nav{
+    margin-top: 75px;
+    margin-left: 250px;
+}
+
+#cabecalho a{
+    margin-left: 50px;
+    margin-right: 25px;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px black;
+    transition: 0.4s;
+}
+
+#cabecalho a:hover{
+    font-size: 2.5em;
+    transition: 0.4s;
+}
+
+article{
+    background-color: #495a6ad7;
+    margin: auto;
+    width: 70%;
+    font-size: 2.7em;
+    padding: 10px;
+    line-height: 54px;
+    padding-bottom: 13px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.404);
+}
+
+article p{
+    font-family: 'Dancing Script', cursive;
+    color: #F2E6D8;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
