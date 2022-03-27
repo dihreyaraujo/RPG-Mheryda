@@ -23,55 +23,59 @@ body{
     background-size: cover;
     background-position: 0% 50%;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.438);
-    width: 917px;
-    margin-left: 181px;
+    width: 1364px;
+    margin-left: 278px;
 }
 
 #cabecalho h1{
     display: inline-block;
     color: white;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.753);
-    margin-top: 90px;
+    margin-top: 60px;
     margin-left: 45%;
-    font-size: 4em;
+    font-size: 5em;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 0.1em;
 }
 
 #cabecalho nav{
-    margin-top: 85px;
-    margin-left: 25px;
+    margin-top: 75px;
+    margin-left: 165px;
 }
 
 #cabecalho a{
-    margin-left: 100px;
+    margin-left: 120px;
     color: white;
     font-family: 'Amatic SC', cursive;
     text-decoration: none;
-    font-size: 1.6em;
+    font-size: 2.5em;
     font-weight: bold;
     text-shadow: 0px 0px 2px black;
     transition: 0.4s;
 }
 
 #cabecalho a:hover{
-    font-size: 2.2em;
+    font-size: 3em;
     transition: 0.4s;
 }
 
 article{
     background-color: #7abfabf1;
     margin: auto;
-    width: 70%;
-    font-size: 2.7em;
-    padding: 10px;
-    line-height: 54px;
-    padding-bottom: 13px;
+    width: 67.9%;
+    font-size: 3em;
+    padding: 30px;
+    line-height: 74px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.404);
+    height: 647px;
 }
 
 article p{
     font-family: 'Dancing Script', cursive;
     color: #1A2040;
     text-shadow: 0px 0px 1px black;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding-top: 80px;
 }

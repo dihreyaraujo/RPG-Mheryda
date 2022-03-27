@@ -88,29 +88,29 @@ diceImageD8.addEventListener('click', function(){
 diceImageD10.addEventListener('click', function(){
     diceText.innerText = Math.floor(Math.random() * 10 + 1);
     if(diceText.innerText.length == 2) {
-        diceText.style.paddingLeft = '51.3%'
+        diceText.style.left = '975px'
     }
     else {
-        diceText.style.paddingLeft = '51.7%'
+        diceText.style.left = '982px'
     }
 })
 
 diceImageD12.addEventListener('click', function(){
     diceText.innerText = Math.floor(Math.random() * 12 + 1);
     if(diceText.innerText.length == 2) {
-        diceText.style.paddingLeft = '51.3%'
+        diceText.style.left = '975px'
     }
     else {
-        diceText.style.paddingLeft = '51.7%'
+        diceText.style.left = '982px'
     }
 })
 
 diceImageD20.addEventListener('click', function(){
     diceText.innerText = Math.floor(Math.random() * 20 + 1);
     if(diceText.innerText.length == 2) {
-        diceText.style.paddingLeft = '51.3%'
+        diceText.style.left = '975px'
     }
     else {
-        diceText.style.paddingLeft = '51.7%'
+        diceText.style.left = '982px'
     }
 })

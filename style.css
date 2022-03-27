@@ -31,35 +31,36 @@ body{
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.753);
     margin-top: 100px;
     margin-left: 35.5%;
-    font-size: 3.5em;
+    font-size: 5em;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 0.1em;
 }
 
 #cabecalho nav{
-    margin-top: 85px;
+    margin-top: 45px;
+    margin-left: 25px;
 }
 
 #cabecalho a{
     margin-left: 10px;
-    margin-right: 5px;
+    margin-right: 25px;
     color: white;
     font-family: 'Amatic SC', cursive;
     text-decoration: none;
-    font-size: 1.6em;
+    font-size: 2em;
     font-weight: bold;
     text-shadow: 0px 0px 2px black;
     transition: 0.4s;
 }
 
 #cabecalho a:hover{
-    font-size: 2.2em;
+    font-size: 2.7em;
     transition: 0.4s;
 }
 
 #dado{
     background-color: #444444d7;
-    height: 120px;
+    height: 140px;
 }
 
 #dado h2{
@@ -68,22 +69,24 @@ body{
     padding-top: 20px;
     color: white;
     text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.473);
-    font-size: 28px;
+    font-size: 34px;
 }
 
 #dice{
     margin-left: 62px;
     margin-top: 10px;
-    width: 70px;
-    height: 26px;
+    width: 100px;
+    height: 42px;
+    font-size: 1.5em;
     border-radius: 0;
     background-color: #979797;
     color: white;  
+    cursor: pointer;
 }
 
 #dice-image img{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     position: absolute;
     left: 50%;
     top: 315px;
@@ -91,8 +94,12 @@ body{
 }
 
 #dice-text{
-    padding-left: 51.7%;
     color: white;
+    display: inline-block;
+    position: absolute;
+    left: 982px;
+    top: 400px;
+    font-size: 1.5em;
 }
 
 #corpo-container-mheryda{
@@ -100,6 +107,7 @@ body{
     box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.438);
     background-image: url(mherylda.jpg);
     background-attachment: fixed;
+    background-size: 40%;
     padding-top: 0.32px;
 }
 
@@ -113,8 +121,7 @@ body{
     width: 60%;
     text-align: center;
     margin: auto;
-    line-height: 25px;
-    font-size: 1.5em;
+    font-size: 2em;
     padding-bottom: 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -142,7 +149,7 @@ body{
 
 #mheryda p{
     font-family: 'Dancing Script', cursive;
-    line-height: 30px;
+    line-height: 40px;
     margin-bottom: 25px;
 }
 
