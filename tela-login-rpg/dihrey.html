@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha</title>
+    <link rel="stylesheet" href="dihrey.css">
+</head>
+<body>
+    <header>
+        <h1>Olá Dihrey</h1>
+        <nav>
+            <p>Ficha Do Personagem</p>
+            <p>Lista De Magias</p>
+        </nav>
+    </header>
+    <button id="editarbtn">Editar</button>
+    <a href="login.html"><button id="sair">Sair</button></a>
+    <main id="main">
+        <div id="ficha-personagem">
+            <div id="info-personagem">
+                <div id="name-personagem">
+                    <p>Nome Do Personagem:</p>
+                </div>
+                <div id="infos-gerais">
+                    <div id="line1">
+                        <p>Classe e Nível</p>
+                        <p>Antecedente</p>
+                        <p>Nome Do Jogador</p>
+                    </div>
+                    <div id="line2">
+                        <p>Raça</p>
+                        <p>Tendência</p>
+                        <p>Pontos De Experiência</p>
+                    </div>
+                </div>
+            </div>
+            <div id="atributos">
+                <div id="força" class="atributos-design">
+                    <h2>Força</h2>
+                    <p id="valor-força">0</p>
+                    <p class="bonus-for">0</p>
+                </div>
+                <div id="destreza" class="atributos-design">
+                    <h2>Destreza</h2>
+                    <p id="valor-destreza">0</p>
+                    <p class="bonus-des">0</p>
+                </div>
+                <div id="constituiçao" class="atributos-design">
+                    <h2>Constituição</h2>
+                    <p id="valor-constituicao">0</p>
+                    <p class="bonus-cons">0</p>
+                </div>
+                <div id="inteligencia" class="atributos-design">
+                    <h2>Inteligência</h2>
+                    <p id="valor-inteligencia">0</p>
+                    <p class="bonus-int">0</p>
+                </div>
+                <div id="sabedoria" class="atributos-design">
+                    <h2>Sabedoria</h2>
+                    <p id="valor-sabedoria">0</p>
+                    <p class="bonus-sab">0</p>
+                </div>
+                <div id="carisma" class="atributos-design">
+                    <h2>Carisma</h2>
+                    <p id="valor-carisma">0</p>
+                    <p class="bonus-car">0</p>
+                </div>
+            </div>
+            <div id="fight">
+                <div id="inspiraçao">
+                    <h2>Inspiração</h2>
+                    <p id="insp-valor">0</p>
+                </div>
+                <div id="hour-fight">
+                    <div id="ca">
+                        <h2>Class Armor</h2>
+                        <p id="ca-valor">14</p>
+                    </div>
+                    <div id="iniciativa">
+                        <h2>Iniciativa</h2>
+                        <p id="iniciativa-valor">0</p>
+                    </div>
+                    <div id="pv">
+                        <h2>Pontos de Vida</h2>
+                        <p id="pv-valor"></p>
+                    </div>
+                </div>
+                <div id="proficiencia">
+                    <h2>Bônus de Proficiência</h2>
+                    <p id="prof-valor">0</p>
+                </div>
+                
+            </div>
+        </div>
+        <div id="resistance-test">
+            <h2>Teste de Resistência</h2>
+            <label for="">
+                <input type="checkbox" name="" id="resist-for"> Força 0
+            </label>
+            <label for="">
+                <input type="checkbox" name="" id="resist-des"> Destreza 0
+            </label>
+            <label for="">
+                <input type="checkbox" name="" id="resist-cons"> Constituição 0
+            </label>
+            <label for="">
+                <input type="checkbox" name="" id="resist-int"> Inteligência 0
+            </label>
+            <label for="">
+                <input type="checkbox" name="" id="resist-sab"> Sabedoria 0
+            </label>
+            <label for="">
+                <input type="checkbox" name="" id="resist-car"> Carisma 0
+            </label>
+        </div>
+        <div id="pericias">
+            <h2>Perícias</h2>
+            <label for=""><input type="checkbox" name="" id="acrobacia"> Acrobacia 0</label>
+            <label for=""><input type="checkbox" name="" id="arcanismo"> Arcanismo 0</label>
+            <label for=""><input type="checkbox" name="" id="atletismo"> Atletismo 0</label>
+            <label for=""><input type="checkbox" name="" id="atuacao"> Atuação 0</label>
+            <label for=""><input type="checkbox" name="" id="blefar"> Blefar 0</label>
+            <label for=""><input type="checkbox" name="" id="furtividade"> Furtividade 0</label>
+            <label for=""><input type="checkbox" name="" id="historia"> História 0</label>
+            <label for=""><input type="checkbox" name="" id="intimidacao"> Intimidação 0</label>
+            <label for=""><input type="checkbox" name="" id="intuicao"> Intuição </label>
+            <label for=""><input type="checkbox" name="" id="investigacao"> Investigação 0 </label>
+            <label for=""><input type="checkbox" name="" id="lidar-com-animais"> Lidar Com Animais 0</label>
+            <label for=""><input type="checkbox" name="" id="medicina"> Medicina 0 </label>
+            <label for=""><input type="checkbox" name="" id="natureza"> Natureza 0</label>
+            <label for=""><input type="checkbox" name="" id="percepcao"> Percepção 0 </label>
+            <label for=""><input type="checkbox" name="" id="persuasao"> Persuasão 0 </label>
+            <label for=""><input type="checkbox" name="" id="prestidigitacao"> Prestidigitação 0 </label>
+            <label for=""><input type="checkbox" name="" id="religiao"> Religião 0 </label>
+            <label for=""><input type="checkbox" name="" id="sobrevivencia"> Sobrevivência 0</label>
+        </div>
+        <div id="editar">
+            <div id="edita-texto">
+                Personagem: <input type="text" id="person-edit">
+                Classe e Nível: <input type="text" id="class-edit">
+                Antecedente: <input type="text" id="antece-edit">
+                Jogador: <input type="text" id="jogador-edit">
+                Raça: <input type="text" id="raça-edit">
+                Tendência: <input type="text" id="tend-edit">
+                 Pontos de Experiência: <input type="text" id="pe-edit">
+            </div>
+            <div id="edita-atributo">
+                Força: <input type="number" name="" id="for-edit">
+                Destreza: <input type="number" name="" id="des-edit">
+                Constituição: <input type="number" name="" id="cons-edit">
+                Inteligência: <input type="number" name="" id="int-edit">
+                Sabedoria: <input type="number" name="" id="sab-edit">
+                Carisma: <input type="number" name="" id="car-edit">
+                Inspiração: <input type="number" name="" id="insp-edit">
+                Bonus de Proficiência: <input type="number" name="" id="bp-edit">
+                CA: <input type="number" name="" id="ca-edit">
+                Iniciativa: <input type="number" name="" id="iniciativa-edit">
+                PV: <input type="number" name="" id="pv-edit">
+            </div>
+            <button id="salvar">Salvar</button>
+        </div>
+        
+        <div id="todobody">
+
+        </div>
+    </main>
+    
+    
+    <script src="dihrey.js"></script>
+</body>
+</html>
